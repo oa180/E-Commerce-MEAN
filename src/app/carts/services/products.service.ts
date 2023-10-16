@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class ProductsService {
-  private baseUrl = 'http://localhost:5000'; // Adjust the URL to match your Node.js server
+  private baseUrl = 'https://e-commerce-api-p313.onrender.com'; // Adjust the URL to match your Node.js server
 
   constructor(private http: HttpClient) {}
 

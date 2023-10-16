@@ -6,7 +6,7 @@ import { BehaviorSubject, Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class CartsService {
-  private baseUrl = 'http://localhost:5000'; // Adjust the URL to match your Node.js server
+  private baseUrl = 'https://e-commerce-api-p313.onrender.com'; // Adjust the URL to match your Node.js server
 
   cartCountSubject = new BehaviorSubject<number>(0);
   cartCount$ = this.cartCountSubject.asObservable();

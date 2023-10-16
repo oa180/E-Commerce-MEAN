@@ -12,7 +12,7 @@ export class AuthService {
   userRoleSubject = new BehaviorSubject<string>('');
   userRole$ = this.userRoleSubject.asObservable();
 
-  private baseUrl = 'http://localhost:5000'; // Adjust the URL to match your Node.js server
+  private baseUrl = 'https://e-commerce-api-p313.onrender.com'; // Adjust the URL to match your Node.js server
   constructor(private http: HttpClient) {}
 
   sigin(email: string, password: string): Observable<any> {
