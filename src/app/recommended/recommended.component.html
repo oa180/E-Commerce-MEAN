@@ -1,0 +1,12 @@
+<p
+  class="px-10 text-3xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl dark:text-white"
+>
+  Recommended For You
+</p>
+
+<div class="flex justify-center rounded-md shadow-sm gap-5" role="group">
+  <!-- Group -->
+  <ng-container *ngFor="let product of recommendedProducts">
+    <app-card [product]="product"></app-card>
+  </ng-container>
+</div>

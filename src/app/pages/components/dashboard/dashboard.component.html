@@ -1,0 +1,15 @@
+<p
+  class="text-center text-3xl font-extrabold leading-none py-10 tracking-tight text-gray-900 md:text-4xl dark:text-white"
+>
+  All Users Products
+</p>
+
+<div
+  class="flex flex-wrap justify-center rounded-md shadow-sm gap-5"
+  role="group"
+>
+  <!-- Group -->
+  <ng-container *ngFor="let product of usersProducts">
+    <app-dashboard-card [product]="product"></app-dashboard-card>
+  </ng-container>
+</div>

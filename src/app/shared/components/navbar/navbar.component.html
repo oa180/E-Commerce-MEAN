@@ -1,0 +1,208 @@
+<nav class="bg-slate-400 border-gray-200 dark:bg-gray-900">
+  <div
+    class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+  >
+    <div
+      class="flex flex-row text-xl text-white md:hover:text-red-400 hover:cursor-pointer"
+      routerLink="/"
+    >
+      <span>E-Commerce</span>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="50"
+        height="27"
+        viewBox="0 0 24 24"
+      >
+        <path d="M8 9h-7.161l-.839-2h8v2" fill="white" />
+        <path d="M8 11h-6.322l.839 2h5.483v-2" fill="white" />
+        <path d="M16.53 7h-6.53v2h5.966l.564-2" fill="white" />
+        <path d="M14.836 13l.564-2h-5.4v2h4.836" fill="white" />
+        <path
+          d="M8.164 18c-.828 0-1.5.672-1.5 1.5 0 .829.672 1.5 1.5 1.5s1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5"
+          fill="white"
+        />
+        <path
+          d="M19.469 3l-3.432 12h-13.017l.839 2h13.659l3.474-12h1.929l.743-2h-4.195"
+          fill="white"
+        />
+        <path
+          d="M13.695 18c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5"
+          fill="white"
+        />
+      </svg>
+    </div>
+
+    <div class="flex md:order-2">
+      <button
+        type="button"
+        data-collapse-toggle="navbar-search"
+        aria-controls="navbar-search"
+        aria-expanded="false"
+        class="md:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 mr-1"
+      >
+        <svg
+          class="w-5 h-5"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 20 20"
+        >
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+          />
+        </svg>
+        <span class="sr-only">Search</span>
+      </button>
+
+      <div class="relative hidden md:block">
+        <div
+          class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
+        >
+          <svg
+            class="w-4 h-4 text-gray-500 dark:text-gray-400"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 20 20"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+            />
+          </svg>
+          <span class="sr-only">Search icon</span>
+        </div>
+        <input
+          type="text"
+          id="search-navbar"
+          class="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-400 rounded-lg bg-gray-50 focus:ring-red-400 focus:border-red-400 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          placeholder="Search..."
+        />
+      </div>
+      <button
+        data-collapse-toggle="navbar-search"
+        type="button"
+        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        aria-controls="navbar-search"
+        aria-expanded="false"
+      >
+        <span class="sr-only">Open main menu</span>
+        <svg
+          class="w-5 h-5"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 17 14"
+        >
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M1 1h15M1 7h15M1 13h15"
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+      id="navbar-search"
+    >
+      <div class="relative mt-3 md:hidden">
+        <div
+          class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
+        >
+          <svg
+            class="w-4 h-4 text-gray-500 dark:text-gray-400"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 20 20"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+            />
+          </svg>
+        </div>
+        <input
+          type="text"
+          id="search-navbar"
+          class="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-red-400 focus:border-gray-400 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          placeholder="Search..."
+        />
+      </div>
+    </div>
+
+    <ng-container *ngIf="!isLoggedIn">
+      <div class="md:order-2 flex gap-2">
+        <button
+          type="button"
+          class="text-white bg-red-400 hover:bg-gray-400 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        >
+          Get started
+        </button>
+
+        <button
+          [routerLink]="['/signin']"
+          type="button"
+          class="text-white bg-blue-400 hover:bg-gray-400 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        >
+          Sign In
+        </button>
+      </div>
+    </ng-container>
+
+    <ng-container *ngIf="isLoggedIn">
+      <div class="md:order-2 flex gap-2">
+        <button
+          (click)="logOut()"
+          type="button"
+          class="text-white bg-red-400 hover:bg-gray-400 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        >
+          Log out
+        </button>
+      </div>
+    </ng-container>
+    <ng-container *ngIf="isLoggedIn && userRole == 'admin'">
+      <div class="md:order-2 flex gap-2">
+        <button
+          routerLink="/dashboard"
+          type="button"
+          class="text-white bg-red-400 hover:bg-gray-400 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        >
+          Dash Board
+        </button>
+      </div>
+    </ng-container>
+    <div class="md:order-3 flex relative" [routerLink]="['/cart']">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M10 19.5c0 .829-.672 1.5-1.5 1.5s-1.5-.671-1.5-1.5c0-.828.672-1.5 1.5-1.5s1.5.672 1.5 1.5zm3.5-1.5c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5zm-10.563-5l-2.937-7h16.812l-1.977 7h-11.898zm11.233-5h-11.162l1.259 3h9.056l.847-3zm5.635-5l-3.432 12h-12.597l.839 2h13.239l3.474-12h1.929l.743-2h-4.195z"
+          fill="white"
+        />
+      </svg>
+      <div
+        id="cart-count"
+        class="relative bottom-2 right-[.10rem] bg-red-400 text-white w-5 h-5 rounded-xl text-center"
+      >
+        {{ this.count }}
+      </div>
+    </div>
+  </div>
+</nav>
